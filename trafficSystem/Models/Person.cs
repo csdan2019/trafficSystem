@@ -4,8 +4,9 @@ using System.Text;
 
 namespace trafficSystem.Models
 {
-    class Person
+    public class Person
     {
+        // change age and speed to property
         int age;
         int speed;
 
