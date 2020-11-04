@@ -6,7 +6,11 @@ namespace trafficSystem.Models
 {
     class People
     {
-        List<Person> people;
+        public List<Person> People{
+        get;
+        set;
+        }
+        public List<Person> people;
 
     }
 }
