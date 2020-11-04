@@ -9,8 +9,7 @@ namespace trafficSystem.Models
         public List<Person> People{
         get;
         set;
-        }
-        public List<Person> people;
+        } = new List<Person>();
 
     }
 }
