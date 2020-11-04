@@ -8,7 +8,7 @@ namespace trafficSystem.Models
     {
         // change age and speed to property
         int age;
-        int speed;
+        int WalkingSpeed;
 
         public int Walk()
         {
