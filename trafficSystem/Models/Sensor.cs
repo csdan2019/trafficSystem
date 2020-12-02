@@ -4,12 +4,7 @@ using System.Text;
 
 namespace trafficSystem.Models
 {
-    class People
+    class Sensor
     {
-        public List<Person> people{
-        get;
-        set;
-        } = new List<Person>();
-
     }
 }

@@ -7,8 +7,22 @@ namespace trafficSystem.Models
     public class Person
     {
         // change age and speed to property
-        int age;
-        int WalkingSpeed;
+        private int age;
+
+        public int Age
+        {
+            get { return age; }
+            set { age = value; }
+        }
+
+        private int walkingSpeed;
+
+        public int WalkingSpeed
+        {
+            get { return walkingSpeed; }
+            set { walkingSpeed = value; }
+        }
+
 
         public int Walk()
         {
